@@ -1,0 +1,54 @@
+p{
+    text-align: center;
+    font-family:"Playfair Display","sans-serif" ;
+    text-decoration: none;
+    font-size: 20px;
+}
+nav{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 30px;
+    border-bottom: 5px solid white;
+    background-color: white;
+}
+nav h1{
+    text-align: center;
+    color: white;
+    font-family:"Playfair Display","sans-serif" ;
+    font-size: 40px;
+    border-bottom: 1px solid white;
+    margin-top: auto;
+    text-decoration: none;
+    
+    }
+    
+.main{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main .content .card .right img{
+    height: 270px;
+    width: 370px;
+    margin-top: 5px;
+}
+.main .content .card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+
+}
+.main .content .card .left p{
+text-align: justify;
+text-decoration: none;
+}
+
+
+.main .content .card.right{
+    flex: 0 0 70%;
+    padding: 20px;
+}

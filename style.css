@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2? family= Montserrat & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Playfair+Display:wght@600 & display=swap');
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family:"Montserrat" ,"sans-serif";
+   
+} 
+nav{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 30px;
+    border-bottom: 10px solid white;
+    background-color: #000;
+}
+ nav h1{
+text-align: center;
+color: white;
+font-family:"Playfair Display","sans-serif" ;
+font-size: 40px;
+border-bottom: 1px solid white;
+margin-top: auto;
+text-decoration: none;
+
+}
+nav .onglets{
+    margin-top: 3px;
+    margin-left: 550px;
+}
+nav .onglets a{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+}
+h2{
+    text-align: center;
+    color: #000;
+    font-family:"Playfair Display","sans-serif" ;
+    font-size: 20px;
+    }
+    header h2{
+        font-family: "Playfair Display","sans-serif";
+        color: aliceblue;
+        font-size: 30px;
+    }
+   header{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       background-color: #000;
+       background-size: cover;
+       padding: 25px;
+   }
+   p{
+    text-align: center;
+    color:white;
+    font-family:"Playfair Display","sans-serif" ;
+    font-size: 40px;
+   }
+.main{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main .content .card .right img{
+    height: 300px;
+    width: 400px;
+    margin-top: 5px;
+}
+.main .content .card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+.main .content .card.right{
+    flex: 0 0 70%;
+    padding: 20px;
+}
+section{
+    background-image: url("Capture\ d’écran\ \(44\).png");
+    background-size: cover;
+    
+}
+footer{
+    margin-top: 40px;
+    border-top: 5px solid black;
+    background-color: black;
+    color: white;
+    
+
+}
+footer .services .services p{
+    margin-top: 40px;
+    border-top: 5px solid black;
+    background-color: black;
+    color: white;
+    
+
+}
